@@ -11,16 +11,84 @@ Extra large screens, TV – 1201px
         background-image: linear-gradient(to bottom, rgb(78, 31, 70), rgb(17, 17, 17)70%);
     }
     section#login{
-        
+        height: 345px;
+        width: 95vw;
+    }
+    section#login >div#imagens{
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-image: url(../imagem/pexels-sevenstorm-juhaszimrus-443399.jpg);
+        background-position: center center;
+    }
+    section#login >div#formulario{
+        float: right;
+        width: 60%;
+    }
+}/*tablet*/
+@media screen and (min-width:769px) and (max-width:1024px) {
+    body{
+        background-image: linear-gradient(to bottom, rgb(31, 78, 62), rgba(0, 0, 0, 0.582)70%);
+    }
+    section#login{
+        height: 350px;
         width: 80vw;
     }
     section#login >div#imagens{
         float: left;
         width: 40%;
         height: 100%;
+        background-image: url(../imagem/pexels-aleksandar-pasaric-325185.jpg);
     }
     section#login >div#formulario{
         float: right;
         width: 60%;
+        background-color: rgb(255, 255, 255);
+    }
+}/* desktop */
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+    body{
+        background-image: linear-gradient(to bottom, rgb(49, 59, 80), rgba(0, 0, 0, 0.678)70%);
+    }
+    section#login{
+        height: 325px;
+        width: 80vw;
+    }
+    section#login >div#imagens{
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-image: url(../imagem/pexels-andre-furtado-370717.jpg);
+    }
+    section#login >div#formulario{
+        float: right;
+        width: 60%;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width:1201px){
+    body{
+        background-image: linear-gradient(to bottom, rgb(52, 12, 153), rgba(0, 0, 0, 0.582)70%);
+    }
+    
+    section#login{
+        height: 325px;
+        width: 80vw;
+    }
+    section#login >div#imagens{
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-image: url(../imagem/pexels-johannes-plenio-1632788.jpg);
+        background-position: bottom right;
+    }
+    section#login >div#formulario{
+        
+        float: right;
+        width: 60%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
     }
 }
