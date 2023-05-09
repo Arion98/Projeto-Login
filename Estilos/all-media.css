@@ -11,7 +11,7 @@ Extra large screens, TV – 1201px
         background-image: linear-gradient(to bottom, rgb(78, 31, 70), rgb(17, 17, 17)70%);
     }
     section#login{
-        height: 345px;
+        height: 375px;
         width: 95vw;
     }
     section#login >div#imagens{
@@ -31,7 +31,7 @@ Extra large screens, TV – 1201px
         background-image: linear-gradient(to bottom, rgb(31, 78, 62), rgba(0, 0, 0, 0.582)70%);
     }
     section#login{
-        height: 350px;
+        height: 410px;
         width: 80vw;
     }
     section#login >div#imagens{
@@ -42,6 +42,7 @@ Extra large screens, TV – 1201px
     }
     section#login >div#formulario{
         float: right;
+        height: 100%;
         width: 60%;
         background-color: rgb(255, 255, 255);
     }
@@ -52,7 +53,7 @@ Extra large screens, TV – 1201px
         background-image: linear-gradient(to bottom, rgb(49, 59, 80), rgba(0, 0, 0, 0.678)70%);
     }
     section#login{
-        height: 325px;
+        height: 410px;
         width: 80vw;
     }
     section#login >div#imagens{
@@ -63,6 +64,7 @@ Extra large screens, TV – 1201px
     }
     section#login >div#formulario{
         float: right;
+        height: 100%;
         width: 60%;
         background-color: rgb(255, 255, 255);
     }
@@ -74,7 +76,7 @@ Extra large screens, TV – 1201px
     }
     
     section#login{
-        height: 325px;
+        height: 415px;
         width: 80vw;
     }
     section#login >div#imagens{
